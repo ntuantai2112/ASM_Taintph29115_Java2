@@ -211,7 +211,7 @@ public final class MainView extends javax.swing.JFrame implements Runnable {
 
     // Hàm recode lấy thông tin bảng ghi
     public String getInfomation() {
-        return "Record: " + (index + 1) + " of " + list.size();
+        return " Record: " + (index + 1) + " of " + list.size();
     }
 
     public void updateInfor() {
